@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git@github.com:ghophp/thorvarium.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "server": "lite-server --baseDir='./build'"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-bump": "0.0.6",
